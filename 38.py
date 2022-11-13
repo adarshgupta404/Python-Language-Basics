@@ -1,5 +1,5 @@
 #qq38
-n =int(input("enter number of elements in tuple "))
+n =int(input("Enter number of elements in tuple: "))
 li=[0]*n
 print("Input in tuple: ")
 for i in range (n):
