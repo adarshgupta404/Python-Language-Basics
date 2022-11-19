@@ -1,0 +1,11 @@
+t1 = input("Input tuple1 : ")
+create = t1.split(",")
+tuple1 = tuple(create)
+t2 = input("Input tuple2 : ")
+create = t2.split(",")
+tuple2 = tuple(create)
+tuple3 = () 
+tuple3 = tuple1 + tuple2 
+print("tuple1: ",tuple1)
+print("tuple2: ",tuple2)
+print("after add tuple: ",tuple3)
